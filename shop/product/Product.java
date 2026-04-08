@@ -1,3 +1,5 @@
+package shop;
+
 public class Product {
     String name;
     double price;
@@ -8,6 +10,6 @@ public class Product {
     }
 
     public void getInfo(){
-        System.out.println("Product: " + name + ", price: " +  price);
+        System.out.println("shop.Product: " + name + ", price: " +  price);
     }
 }
